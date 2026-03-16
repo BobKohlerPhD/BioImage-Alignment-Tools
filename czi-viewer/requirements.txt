@@ -1,0 +1,9 @@
+napari
+napari-aicsimageio
+napari-animation
+napari-assistant
+napari-threedee
+aicspylibczi
+pyqt5
+tifffile<2023.3.15
+imagecodecs<2024.1.1

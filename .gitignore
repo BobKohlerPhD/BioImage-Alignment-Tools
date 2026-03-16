@@ -1,0 +1,14 @@
+.DS_Store
+czi-viewer/mamba_root/
+czi-viewer/napari-runtime/
+czi-viewer/micromamba
+czi-viewer/.setup_done
+czi-viewer/viewer-old/
+czi-viewer/czi-viewer.zip
+czi-viewer/*.czi
+czi-viewer/TEST.czi
+**/napari-env/
+**/mamba_root/
+**/napari-runtime/
+**/.DS_Store
+**/.setup_done
