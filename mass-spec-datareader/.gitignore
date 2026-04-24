@@ -22,6 +22,10 @@
 *.png
 *.pdf
 
+# Unignore files in assets
+!assets/*.png
+!assets/*.pdf
+
 # Local Assets and Diagnostics
 assets_final/
 analysis_results/
