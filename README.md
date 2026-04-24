@@ -32,4 +32,4 @@ To enable MedSAM-powered masking, download the `medsam_vit_b.pth` checkpoint and
 #### Registration & Integration Example
 Below is an example of the publication-grade dashboard generated after successful registration and multimodal integration:
 
-![Example Publication Dashboard](mass-spec-datareader/assets/example_dashboard.png)
+![Example Publication Dashboard](assets/example_dashboard.png)
