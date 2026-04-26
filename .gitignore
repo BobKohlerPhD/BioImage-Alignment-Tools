@@ -1,20 +1,56 @@
+# OS generated files
 .DS_Store
-czi-viewer/mamba_root/
-czi-viewer/napari-runtime/
+**/.DS_Store
+*.pyc
+
+# Project-wide 
+**/__pycache__/
+**/.venv/
+**/osx-arm64/
+**/mamba_root/
+**/napari-runtime/
+**/napari-env/
+**/.setup_done
+
+# CZI Viewer
 czi-viewer/micromamba
-czi-viewer/.setup_done
 czi-viewer/viewer-old/
 czi-viewer/czi-viewer.zip
 czi-viewer/*.czi
 czi-viewer/TEST.czi
-**/napari-env/
-**/mamba_root/
-**/napari-runtime/
-**/.DS_Store
-**/.setup_done
-**/.venv/
-**/__pycache__/
-**/analysis_results/
+
+# Mass Spec Data Reader
+*.raw
+*.wiff
+*.d
+*.idx
+*.cal
+*.log
+
+# Open Data
+*.mzML
+*.mzXML
+*.imzML
+*.ibd
+
+# Analysis Outputs
+*.csv
+*.tsv
+*.parquet
+*.h5
+*.hdf5
+*.h5ad
+*.png
+*.pdf
+
+# Local
 **/assets_final/
-**/osx-arm64/
-*.pyc
+**/analysis_results/
+
+# Assets-unignore
+!assets/
+!assets/*.png
+!assets/*.pdf
+!mass-spec-datareader/assets/
+!mass-spec-datareader/assets/*.png
+!mass-spec-datareader/assets/*.pdf

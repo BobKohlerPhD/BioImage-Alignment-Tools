@@ -1,9 +1,0 @@
-.DS_Store
-*.czi
-TEST.czi
-mamba_root/
-napari-runtime/
-micromamba
-.setup_done
-viewer-old/
-czi-viewer.zip

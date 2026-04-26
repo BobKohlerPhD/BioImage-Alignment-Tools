@@ -7,11 +7,12 @@ pyteomics
 pyimzml
 pandas
 opencv-python
-scikit-image
 scipy
 anndata
 spatialdata
-# To enable advanced segmentation (optional)
+
+
+# for better segmentation 
 # segment-anything @ git+https://github.com/facebookresearch/segment-anything.git
 # torch 
 # torchvision
