@@ -12,13 +12,15 @@ A portable napari-based CZI viewer. See [czi-viewer/README.md](czi-viewer/README
 ### Mass Spec Data Reader
 Tools for mass spectrometry data analysis and proprietary format conversion.
 
-### 1. Integrated Pipeline
+#### Integrated Pipeline
 The easiest way to run the pipeline is via the included shell script:
 ```bash
 ./run_mass_spec.sh /path/to/data
 ```
 
-## Bio-Image Alignment 
+
+
+## Theoretical Bio-Image Alignment 
 *Currently a work in progress.* 
 
 To align a mass-spec scan to a reference image (e.g., H&E histology):
