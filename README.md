@@ -12,6 +12,7 @@ A portable napari-based CZI viewer. See [czi-viewer/README.md](czi-viewer/README
 ### Mass Spec Data Reader
 Tools for mass spectrometry data analysis and proprietary format conversion.
 
+
 #### Integrated Pipeline
 The easiest way to run the pipeline is via the included shell script:
 ```bash
@@ -20,7 +21,7 @@ The easiest way to run the pipeline is via the included shell script:
 
 
 
-## Theoretical Bio-Image Alignment 
+### Theoretical Bio-Image Alignment 
 *Currently a work in progress.* 
 
 To align a mass-spec scan to a reference image (e.g., H&E histology):
@@ -30,6 +31,8 @@ python processor.py --input-dir /path/to/data --align-to histology_ref.tif
 
 ### Advanced Segmentation (MedSAM)
 To enable MedSAM-powered masking, download the `medsam_vit_b.pth` checkpoint and place it in the `models/` directory; the pipeline will automatically detect it and upgrade the segmentation workflow.
+
+**Landmark selection needs to be implemented so "anchor points" are created. In addition to aligning by shape, a standardized spectrum of intensity need to be established.**
 
 #### Registration & Integration Example
 Below is an example visualization of successful registration and multimodal integration from simulated data:
